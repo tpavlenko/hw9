@@ -8,7 +8,7 @@ function row(n) {
 
 	console.log(n);
 
-	row(n - 1);
+	row(--n);
 }
 
 row(5);
